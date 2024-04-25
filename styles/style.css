@@ -1,0 +1,22 @@
+:root{
+    --color1: #9eeb47;
+    --color2: #7931bd;
+    --color3: #4831d4;
+    --color4: #000000;
+    --color5: #305413;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   width: 98vw;
+   height: auto;
+   display: flex;
+}
+
+

@@ -1,0 +1,199 @@
+body > .seccderecha{
+   width: 78%;
+   height: max-content;
+   background-color: var(--color3);
+   position: relative;
+   padding: 1rem;
+   left: 25.5%;
+   
+}
+.seccderecha > .contenedormain{
+   width: 98%;
+   height: max-content;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.secinfo{
+   width: 100%;
+   height: 25%;
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   
+}
+.titulos > h2{
+   color: var(--color1);
+   font-size: 2rem;
+   border-bottom: solid 2px #9eeb47  ;
+   align-items: flex-start;
+   margin-top: 1rem;
+   
+}
+.titulos1 > h2{
+   color: var(--color1);
+   font-size: 2rem;
+   border-bottom: solid 2px #9eeb47  ;
+   align-items: flex-start; 
+   margin-top: 1rem;
+}
+.tituloper{
+   color: var(--color1);
+   font-size: 1.5rem;
+   border-bottom: solid 2px #9eeb47   ;
+   align-items: flex-start; 
+   margin-top: 1rem;
+   
+}
+.titulhab{
+   color: var(--color1);
+   font-size: 1.5rem;
+   border-bottom: solid 2px #9eeb47  ;
+   align-items: flex-start;
+   margin-top: 1rem;
+   
+}
+
+.perfil > p{
+   margin-top: 0.5rem;
+   padding: 0.2rem;
+   font-size: 1.1rem;
+   color: white;
+   text-align: center;
+}
+
+.proyectos{
+   width: 100%;
+   height:max-content;
+   display: flex;
+   flex-direction:row;
+   justify-content:center;
+   flex-wrap: wrap;
+   align-items:flex-start;
+}
+.imgproyec1 > img{
+   align-items: center;
+   flex-direction: column;
+   margin-top: 1.4rem;
+}
+.proyect-1{
+   width: 16rem;
+   height:100%;
+   background-color: var(--color1);
+   margin: 1rem;
+   display: flex;
+   border-radius: 5%;
+   box-shadow: 0 0 15px var(--color4); 
+  
+}
+.cont-proyects :hover{
+   background-color: rgb(255, 255, 255);
+   border-radius: 15%;
+}
+.continfopro{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.continfopro > h3 {
+   color: var(--color4);
+   font-size: 1rem;
+   margin-top: 0.2rem;
+}
+.continfopro > p {
+   color: var(--color3);
+   font-size: 0.9rem;
+}
+
+.continfopro > a {
+   margin-top: 1rem;
+   margin-bottom: 0.9rem;
+   text-decoration: none;
+   font-size: 1rem;
+   width: 5rem;
+   padding: 0rem;
+   background-color: white;
+   border-radius: 9px;
+}
+.continfopro > a:hover{
+   background-color: var(--color2);
+   box-shadow: 0 0 11px black;
+}
+.referen1{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+margin-top: 1.5rem;
+
+}
+.referen1  > .refereninfo{
+   width: 11rem;
+   height: 10rem;
+   background-color : rgb(122, 149, 238);
+   border-radius: 10%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 1rem;
+   color: white;
+   line-height: 1rem;
+   font-size: 1rem;
+   box-shadow: 0 0 11px var(--color1);
+}
+.refereninfo > p > span{
+   font-size: 0.9rem;
+   text-align: right;
+   font-weight: 600;
+   color: var(--color4)
+}
+
+.habilidad{
+width: 100%;
+height: max-content;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 1rem;
+flex-direction: row;
+}
+.conthabilidades{
+   width: 12rem;
+   height: 12rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+   text-align: center;
+   box-shadow: 0 0 11px var(--color4);
+}
+.conthabilidades :hover{
+  background-color: var(--color1);
+  border-radius: 3%;
+  
+}
+
+.infohabilidades > img{
+   width: 8rem;
+   height: 8rem;
+}
+.porcent{
+   width: 8rem;
+   height: 1rem;
+   margin-top: 0.5rem;
+   border-radius: 10%;
+   overflow: hidden; 
+}
+.infohabilidades > p{
+   margin-top: 0.8rem;
+   color: rgb(0, 0, 0);
+   font-size: 1.2rem;
+}
+
+
+

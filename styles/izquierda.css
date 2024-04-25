@@ -1,0 +1,115 @@
+body > .seccizquierda{
+    width: 25%;
+    height: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.seccizquierda > header{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header > .contimg{
+    width: 100%;
+    height: 32%;
+    display:flex;
+    justify-content: center;
+}
+.contimg > .perfil{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+header > .contenedor-nombre{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+.contenedor-nombre > .nombre{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: var(--color3);
+    border-bottom:  #7a39b7 solid 1px;
+}
+header > .navperfil{
+    width: 100%;
+    height: 50%;   
+}
+.navperfil > ul{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   font-size: 1.5rem;
+}
+.navperfil > ul > li{
+    list-style: none;
+}
+.navperfil > ul > li > a{
+    color : var(--color3);
+    text-decoration: none;
+    text-shadow: -2px -2px 4px var(--color3);
+}
+.navperfil > ul > li > a:hover{
+    text-shadow: -3px -3px 4px var(--color4);
+    border-bottom: solid 2px  #7a39b7;
+    color: white;
+
+
+}
+header > .contlogo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.contlogo > .logot{
+    width: 10.1rem;
+}
+.seccizquierda > footer{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer > .socialmendia{
+    width: 100%;  
+}
+.socialmendia > ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.socialmendia > ul > li{
+    list-style: none;
+}
+.bx{
+    font-size: 2rem;
+    color: var(--color3);
+    border-radius: 50%;
+    border-style: groove;
+    border-color: black ;
+    margin: 1rem;
+    background-color: var(--color1);
+}
+.bx:hover{
+    background-color: white;
+    box-shadow: 0 0 10px var(--color4);
+}
+
+
+
+
+
